@@ -1,10 +1,8 @@
-// =====================================================================
-// SuperCollider Workspace
-// =====================================================================
+~m = MonoM.new("/monome", 0);
 
-~m = MonoM.new("/monome", 180);
-
-~m.useDevice(0);
+~m.useDevice(1);
+~m.ledall(0);
+~m.ledall(1);
 ~m.ledall(0);
 n = NetAddr.new("127.0.0.1", 8000);    // create the NetAddr
 

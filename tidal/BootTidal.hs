@@ -66,7 +66,7 @@ let setI = streamSetI tidal
 
 :{
 let link = do
-    sock <- carabiner tidal 4 (-0.3638)
+    sock <- carabiner tidal 4 (-0.1825)
     putStrLn "Starting Link synchronisation... :)"
 :}
 
